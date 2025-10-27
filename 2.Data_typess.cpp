@@ -45,3 +45,42 @@ int main() {
     return 0;
 }
 
+
+/* A program to collect and display user information including name, age, height, weight, 
+and grade using appropriate data types in C++.*/
+
+#include <iostream>
+using namespace std;
+int main() {
+    // Declare variables of different data types
+    int age;
+    float height;
+    double weight;
+    char grade;
+    string name;
+
+    // Input values from the user
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "Enter your age: ";
+    cin >> age;
+    cout << "Enter your height (in feet): ";
+    cin >> height;
+    cout << "Enter your weight (in pounds): ";
+    cin >> weight;
+    cout << "Enter your grade (A-F): ";
+    cin >> grade;
+
+    // Display the collected information
+    cout << "\n--- User Information ---" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "Height: " << height << " feet" << endl;
+    cout << "Weight: " << weight << " pounds" << endl;
+    cout << "Grade: " << grade << endl;
+
+    return 0;
+}
+
+
+
