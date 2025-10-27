@@ -1,3 +1,8 @@
+/*
+Variables in C++ are used to store data that can be used and manipulated throughout a program.
+They are essentially named storage locations in memory that hold values of specific data types.
+To declare a variable, you need to specify its data type followed by its name.*/
+
 // Write a C++ program to understand Data types of  C++ using comments for easier understanding
 // Give Some theory about data types in C++ as comments in the code
 /// Data types in C++ define the type of data that a variable can hold.
@@ -39,3 +44,4 @@ int main() {
 
     return 0;
 }
+
